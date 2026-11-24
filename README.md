@@ -49,3 +49,7 @@ Para auditorias exhaustivas de arquitectura web multilingue:
 ## Consultoria en SEO Internacional y Expansao Global
 
 Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regulaciones Digitales UE, contacte al equipo de **TAVARDT Espana**.
+
+***
+
+© 2026 TAVARDT. Todos los derechos reservados.
