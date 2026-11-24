@@ -1,14 +1,13 @@
 # Validador de Etiquetas Hreflang y SEO Internacional
 
 [![Validador Hreflang](https://img.shields.io/badge/TAVARDT-Hreflang-5b3cf5.svg)](https://tools.tavardt.com/es/validador-etiquetas-hreflang/)
-[![Jurisdiccion](https://img.shields.io/badge/Jurisdiccion-Espana-00C853.svg)](https://ag.tavardt.com/es/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 
 Auditoria tecnica de enlaces alternativos reciprocos, codigos de idioma y pais y directivas x-default.
 
-Desarrollado y mantenido por la division de ingenieria semantica y SEO internacional de **[TAVARDT Espana](https://ag.tavardt.com/es/)**.
+Desarrollado y mantenido por la division de ingenieria semantica y SEO internacional de **TAVARDT Espana**.
 
----
+***
 
 ## Capacidades de Auditoria de Hreflang y SEO Internacional
 
@@ -18,7 +17,7 @@ Desarrollado y mantenido por la division de ingenieria semantica y SEO internaci
 * **Consistencia con Etiqueta Canonica**: Alerta de discrepancias entre la etiqueta canonical y la directiva hreflang autorreferencial.
 * **Indice de Salud Multilingue**: Puntuacion cuantitativa de 0 a 100 con guia de subsanacion tecnica.
 
----
+***
 
 ## Instalacion y Ejecucion
 
@@ -33,20 +32,20 @@ python hreflang_validator.py https://empresa.es
 Para generar salida estructurada JSON:
 
 ```bash
-python hreflang_validator.py https://empresa.es --json
+python hreflang_validator.py https://empresa.es -json
 ```
 
----
+***
 
 ## Diagnostico Completo en la Web
 
 Para auditorias exhaustivas de arquitectura web multilingue:
 
-* **[Validador de Etiquetas Hreflang Oficial](https://tools.tavardt.com/es/validador-etiquetas-hreflang/)**
+* **Validador de Etiquetas Hreflang Oficial**
 * **[Portal Corporativo TAVARDT Espana](https://ag.tavardt.com/es/)**
 
----
+***
 
 ## Consultoria en SEO Internacional y Expansao Global
 
-Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regulaciones Digitales UE, contacte al equipo de **[TAVARDT Espana](https://ag.tavardt.com/es/contacto/)**.
+Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regulaciones Digitales UE, contacte al equipo de **TAVARDT Espana**.
