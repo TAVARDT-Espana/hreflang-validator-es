@@ -4,23 +4,26 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Auditoria tecnica de enlaces alternativos reciprocos, codigos de idioma y pais y directivas x-default.
+Auditoria de reciprocidad de enlaces alternativos, etiquetas de idioma y region ISO, y arquitectura de fallback global x-default.
+
+Desarrollado y mantenido por la division de ingenieria de busqueda internacional y estandares web de **TAVARDT**.
 
 ***
 
-## Capacidades de Auditoria de Hreflang y SEO Internacional
+## Capacidades de Auditoria de Hreflang e SEO Internacional
 
-* **Verificacion de Reciprocidad de Enlaces**: Confirma que cada URL alternativa incluya enlace de retorno correspondiente, requisito indispensable para motores de busqueda.
-* **Validacion de Codigos ISO 639-1 e ISO 3166-1**: Deteccion estricta de combinaciones validas de idioma y region geografica (ej: `es-ES`, `en-GB`, `fr-FR`).
-* **Presencia de Directiva x-default**: Comprobacion de direccion de reserva para usuarios que acceden desde ubicaciones sin idioma especifico.
-* **Consistencia con Etiqueta Canonica**: Alerta de discrepancias entre la etiqueta canonical y la directiva hreflang autorreferencial.
-* **Indice de Salud Multilingue**: Puntuacion cuantitativa de 0 a 100 con guia de subsanacion tecnica.
+* **Verificacion de Etiqueta Autorreferencial**: Comprobacion de que la URL auditada se incluye a si misma como enlace alternativo, asegurando validez de rastreo.
+* **Inspeccion de Fallback x-default**: Comprobacion de la etiqueta de reserva para visitantes internacionales fuera de regiones especificamente asignadas.
+* **Validacion de Estandares ISO 639-1 e ISO 3166-1**: Verificacion estricta de combinaciones de idioma y territorio para evitar sintaxis regional invalida.
+* **Deteccion de Conflictos con Canonical**: Identificacion de divergencias criticas donde el enlace canonico contradice las anotaciones hreflang.
+* **Extraccion desde Fuente Doble**: Analisis directo de elementos `<link rel="alternate">` en HTML y cabeceras HTTP Link.
+* **Puntuacion de Salud Internacional**: Calculo cuantificable de 0 a 100 categorizado en COMPLIANT, WARNING o CRITICAL con recomendaciones precisas.
 
 ***
 
 ## Instalacion y Ejecucion
 
-Requiere Python 3.8 o superior sin dependencias externas.
+Requiere Python 3.8 o superior sin dependencias externas obligatorias.
 
 ```bash
 git clone https://github.com/TAVARDT-Espana/hreflang-validator-es.git
@@ -28,30 +31,39 @@ cd hreflang-validator-es
 python hreflang_validator.py https://empresa.es
 ```
 
-Para generar salida estructurada JSON:
+Para generar la salida en formato JSON estructurado en flujos de integracion continua:
 
 ```bash
-python hreflang_validator.py https://empresa.es -json
+python hreflang_validator.py https://empresa.es -j
 ```
 
 ***
 
-## Consultoria en SEO Internacional y Expansao Global
+## Diagnostico Completo en la Web
 
-Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regulaciones Digitales UE, contacte al equipo de **TAVARDT**.
+Para auditorias visuales e inspeccion interactiva de etiquetas internacionales:
+
+* [Validador Hreflang](https://tools.tavardt.com/es/validador-etiquetas-hreflang/)
+* [Portal Corporativo](https://ag.tavardt.com/es/)
 
 ***
 
-## Enlaces Útiles
+## Consultoria en SEO Internacional y Arquitectura Global
+
+Para diseno de portales multirregionales y cumplimiento con estandares W3C, contacte con el equipo tecnico de **TAVARDT**.
+
+***
+
+## Enlaces Utiles
 
 * **Portal Corporativo:** https://ag.tavardt.com/es/
-* **Suite de Diagnósticos:** https://tools.tavardt.com/es/
-* **Contacto Técnico:** https://ag.tavardt.com/es/contacto/
+* **Suite de Diagnosticos:** https://tools.tavardt.com/es/
+* **Contacto Tecnico:** https://ag.tavardt.com/es/contacto/
 
 ***
 
 ### Licencia
-Distribuido bajo la Licencia MIT.
+Distribuido bajo la Licencia MIT. Consulte el archivo LICENSE para mas detalles.
 
 ***
 
