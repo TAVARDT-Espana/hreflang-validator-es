@@ -6,8 +6,6 @@
 
 Auditoria tecnica de enlaces alternativos reciprocos, codigos de idioma y pais y directivas x-default.
 
-Desarrollado y mantenido por la division de ingenieria semantica y SEO internacional de **TAVARDT**.
-
 ***
 
 ## Capacidades de Auditoria de Hreflang y SEO Internacional
@@ -38,15 +36,6 @@ python hreflang_validator.py https://empresa.es -json
 
 ***
 
-## Diagnostico Completo en la Web
-
-Para auditorias exhaustivas de arquitectura web multilingue:
-
-* **Validador de Etiquetas Hreflang Oficial**
-* **[Portal Corporativo TAVARDT](https://ag.tavardt.com/es/)**
-
-***
-
 ## Consultoria en SEO Internacional y Expansao Global
 
 Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regulaciones Digitales UE, contacte al equipo de **TAVARDT**.
@@ -62,7 +51,7 @@ Para proyectos de escala transfronteriza y cumplimiento de Estandares W3C y Regu
 ***
 
 ### Licencia
-Distribuido bajo la Licencia MIT. Consulte el archivo [LICENSE](LICENSE) para obtener todos los detalles.
+Distribuido bajo la Licencia MIT.
 
 ***
 
