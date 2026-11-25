@@ -66,15 +66,6 @@ Se exige el cumplimiento de ISO 639-1 para codigos de idioma de dos letras y de 
 
 ***
 
-## Diagnostico Completo en la Web
-
-Para auditorias visuales e inspeccion interactiva de etiquetas internacionales:
-
-* [Validador Hreflang](https://tools.tavardt.com/es/validador-etiquetas-hreflang/)
-* [Portal Corporativo](https://ag.tavardt.com/es/)
-
-***
-
 ## Consultoria en SEO Internacional y Arquitectura Global
 
 Para diseno de portales multirregionales y cumplimiento con estandares W3C, contacte con el equipo tecnico de **TAVARDT**.
